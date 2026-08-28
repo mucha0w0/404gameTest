@@ -1,4 +1,5 @@
 import TenSecondTap from '../games/TenSecondTap';
+import TicTacToe from '../games/TicTacToe';
 
 export default function App() {
   return (
@@ -26,7 +27,8 @@ export default function App() {
             </p>
           </header>
 
-          <section className="space-y-4">
+          <section className="space-y-8">
+            <TicTacToe />
             <TenSecondTap />
           </section>
         </article>
